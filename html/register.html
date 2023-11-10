@@ -10,68 +10,70 @@
     <title>GRID Layout</title>
   </head>
   <body>
-    <header class="">
-      <div class="">
-        <div class="">
-          <nav class="">
-            <input type="checkbox" id="nav-mobile" class="" />
+    <header class="header">
+      <div class="header-container">
+        <div class="header-left">
+          <nav class="navbar-mobile">
+            <input type="checkbox" id="nav-mobile" class="check-menu" />
 
-            <label for="">
-              <i class=""></i>
+            <label for="nav-mobile">
+              <i class="nav-mobile__icon fa-solid fa-bars"></i>
             </label>
 
-            <div class="">
-              <div class="">
-                <p class="">TDA community</p>
+            <div class="mobile-responsive">
+              <div class="responsive-top ma-10__bottom">
+                <p class="info-title fw-bold">TDA community</p>
 
-                <label for="">
-                  <i class=""></i>
+                <label for="nav-mobile">
+                  <i class="nav-mobile__icon fa-solid fa-xmark"></i>
                 </label>
               </div>
 
-              <div class="">
-                <h2 class="">
+              <div class="card pa-15 ma-10__bottom">
+                <h2 class="card-title ma-10__bottom">
                   DEV Community is a community of 1,175,465 amazing developers
                 </h2>
-                <p class="">
+                <p class="card-text lh-25 ma-10__bottom">
                   We're a place where coders share, stay up-to-date and grow
                   their careers.
                 </p>
                 <div>
-                  <a href="" class="">Create account</a>
-                  <a href="" class="">Login</a>
+                  <a href="" class="card-link card-link__mod fw-bold"
+                    >Create account</a
+                  >
+                  <a href="" class="card-link">Login</a>
                 </div>
               </div>
 
               <ul>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-solid fa-house"></i>Home</li>
                 </a>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-solid fa-microphone"></i>Podcasts</li>
                 </a>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-solid fa-video"></i>Videos</li>
                 </a>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-solid fa-tag"></i>Tags</li>
                 </a>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-solid fa-lightbulb"></i>FAQ</li>
                 </a>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-solid fa-heart"></i>Advertise on DEV</li>
                 </a>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-brands fa-dev"></i>About</li>
                 </a>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-solid fa-address-book"></i>Contact</li>
                 </a>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-solid fa-book"></i>Guides</li>
                 </a>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li>
                     <i class="fa-solid fa-not-equal"></i>Software comparisons
                   </li>
@@ -81,13 +83,13 @@
               <br />
               <p>Other</p>
               <ul>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-solid fa-thumbs-up"></i>Code of Conduct</li>
                 </a>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-solid fa-file-shield"></i>Privacy Policy</li>
                 </a>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-solid fa-eye"></i>Terms of use</li>
                 </a>
               </ul>
@@ -96,8 +98,7 @@
 
           <a href="index.html">
             <img
-              style="width: 100px"
-              class=""
+              class="header-logo"
               src="../css/images/Daniel Gómez Zayas (2673126).png"
               alt="Logo"
             />
@@ -114,8 +115,10 @@
         </div>
 
         <div>
-          <a class="" href="login.html">Login</a>
-          <a class="" href="register.html">Create account</a>
+          <a class="header-link" href="login.html">Login</a>
+          <a class="header-link header-link__mod fw-bold" href="register.html"
+            >Create account</a
+          >
         </div>
       </div>
     </header>
@@ -144,9 +147,7 @@
 
         <hr />
 
-        <a class="" href="login.html"
-          >Do you have an account? Login</a
-        >
+        <a class="" href="login.html">Do you have an account? Login</a>
       </form>
     </div>
 
