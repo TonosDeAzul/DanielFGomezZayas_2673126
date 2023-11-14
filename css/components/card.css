@@ -4,7 +4,7 @@
   padding: var(--sp-15);
   color: var(--dark);
   font-size: var(--fs-1);
-  border-radius: var(--bradius);
+  border-radius: var(--b);
   box-shadow: var(--bshadow);
 }
 .card-top {
@@ -25,21 +25,6 @@
   font-size: var(--fs-2);
   margin-bottom: var(--sp-5);
   color: var(--dark);
-}
-.info-tag {
-  text-decoration: none;
-  color: var(--dark);
-  padding: var(--sp-5);
-  border-radius: var(--bor);
-  display: inline-block;
-}
-.info-tag:hover {
-  background-color: rgba(29, 29, 29, 0.1);
-  color: var(--dark);
-}
-.info-tag__select {
-  background-color: var(--dark);
-  color: var(--light);
 }
 .info-interactive {
   display: flex;
@@ -79,23 +64,4 @@
 .card-link__mod:hover {
   background-color: var(--dark);
   color: var(--light);
-}
-.card-tag {
-  display: block;
-  font-size: var(--fs-1);
-  color: var(--dark);
-  text-decoration: none;
-  list-style: none;
-  border-radius: var(--bor);
-  padding: var(--sp-10);
-}
-.card-tag:hover {
-  background-color: var(--dark);
-  color: var(--light);
-  text-decoration: underline;
-}
-.card-tag li i {
-  font-size: var(--sp-15);
-  width: var(--sp-25);
-  padding-right: var(--sp-5);
 }
