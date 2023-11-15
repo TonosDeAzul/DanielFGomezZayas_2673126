@@ -1,0 +1,39 @@
+.ta-center {
+  text-align: center;
+}
+.ta-right {
+  text-align: right;
+}
+.ta-left {
+  text-align: left;
+}
+.fw-bold {
+  font-weight: bold;
+}
+.rounded {
+  border-radius: var(--bor);
+}
+.pa-5 {
+  padding: var(--sp-5);
+}
+.pa-10 {
+  padding: var(--sp-10);
+}
+.pa-15 {
+  padding: var(--sp-15);
+}
+.pa-20 {
+  padding: var(--sp-20);
+}
+.pa-25 {
+  padding: var(--sp-25);
+}
+.pa-30 {
+  padding: var(--sp-30);
+}
+.ma-10__bottom {
+  margin-bottom: var(--sp-10);
+}
+.lh-25 {
+  line-height: var(--sp-25);
+}
