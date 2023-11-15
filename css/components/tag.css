@@ -6,6 +6,7 @@
   list-style: none;
   border-radius: var(--bradius);
   padding: var(--sp-10);
+  transition: var(--transition);
 }
 .card-tag:hover {
   background-color: var(--dark);
@@ -24,6 +25,7 @@
   padding: var(--sp-5);
   border-radius: var(--bradius);
   display: inline-block;
+  transition: var(--transition);
 }
 .info-tag:hover {
   background-color: rgba(29, 29, 29, 0.1);

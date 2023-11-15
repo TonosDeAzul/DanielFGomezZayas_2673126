@@ -35,6 +35,7 @@
   border: none;
   outline: none;
   border-bottom: 1px solid var(--dark);
+  transition: var(--transition);
 }
 .form-input:focus {
   border-bottom: 2px solid var(--dark);
@@ -50,6 +51,7 @@
   background-color: var(--dark);
   color: var(--light);
   transition: var(--transition);
+  transition: var(--transition);
 }
 .form-button:active {
   background-color: var(--light);
@@ -61,6 +63,7 @@
   text-decoration: none;
   display: inline-block;
   margin-top: var(--sp-5);
+  transition: var(--transition);
 }
 .form-link:active {
   text-decoration: underline;
