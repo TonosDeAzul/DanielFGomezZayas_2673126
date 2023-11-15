@@ -10,68 +10,70 @@
     <title>GRID Layout</title>
   </head>
   <body>
-    <header class="">
-      <div class="">
-        <div class="">
-          <nav class="">
-            <input type="checkbox" id="nav-mobile" class="" />
+    <header class="header">
+      <div class="header-container">
+        <div class="header-left">
+          <nav class="navbar-mobile">
+            <input type="checkbox" id="nav-mobile" class="check-menu" />
 
-            <label for="">
-              <i class=""></i>
+            <label for="nav-mobile">
+              <i class="nav-mobile__icon fa-solid fa-bars"></i>
             </label>
 
-            <div class="">
-              <div class="">
-                <p class="">TDA community</p>
+            <div class="mobile-responsive">
+              <div class="responsive-top ma-10__bottom">
+                <p class="info-title fw-bold">TDA community</p>
 
-                <label for="">
-                  <i class=""></i>
+                <label for="nav-mobile">
+                  <i class="nav-mobile__icon fa-solid fa-xmark"></i>
                 </label>
               </div>
 
-              <div class="">
-                <h2 class="">
+              <div class="card pa-15 ma-10__bottom">
+                <h2 class="card-title ma-10__bottom">
                   DEV Community is a community of 1,175,465 amazing developers
                 </h2>
-                <p class="">
+                <p class="card-text lh-25 ma-10__bottom">
                   We're a place where coders share, stay up-to-date and grow
                   their careers.
                 </p>
                 <div>
-                  <a href="" class="">Create account</a>
-                  <a href="" class="">Login</a>
+                  <a href="" class="card-link card-link__mod fw-bold"
+                    >Create account</a
+                  >
+                  <a href="" class="card-link">Login</a>
                 </div>
               </div>
 
               <ul>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-solid fa-house"></i>Home</li>
                 </a>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-solid fa-microphone"></i>Podcasts</li>
                 </a>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-solid fa-video"></i>Videos</li>
                 </a>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-solid fa-tag"></i>Tags</li>
                 </a>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-solid fa-lightbulb"></i>FAQ</li>
                 </a>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-solid fa-heart"></i>Advertise on DEV</li>
                 </a>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-brands fa-dev"></i>About</li>
                 </a>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-solid fa-address-book"></i>Contact</li>
                 </a>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-solid fa-book"></i>Guides</li>
                 </a>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li>
                     <i class="fa-solid fa-not-equal"></i>Software comparisons
                   </li>
@@ -81,13 +83,13 @@
               <br />
               <p>Other</p>
               <ul>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-solid fa-thumbs-up"></i>Code of Conduct</li>
                 </a>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-solid fa-file-shield"></i>Privacy Policy</li>
                 </a>
-                <a href="#" class="">
+                <a href="#" class="card-tag">
                   <li><i class="fa-solid fa-eye"></i>Terms of use</li>
                 </a>
               </ul>
@@ -96,8 +98,7 @@
 
           <a href="index.html">
             <img
-            style="width: 100px;"
-              class=""
+              class="header-logo"
               src="../css/images/Daniel Gómez Zayas (2673126).png"
               alt="Logo"
             />
@@ -115,154 +116,12 @@
 
         <div>
           <a class="" href="login.html">Login</a>
-          <a class="" href="register.html">Create account</a>
+          <a class=" fw-bold" href="register.html"
+            >Create account</a
+          >
         </div>
       </div>
     </header>
-
-    <div class="container">
-      <nav class="container-navbar">
-        <div class="">
-          <h2 class="">
-            DEV Community is a community of 1,175,465 amazing developers
-          </h2>
-          <p class="">
-            We're a place where coders share, stay up-to-date and grow their
-            careers.
-          </p>
-          <div>
-            <a href="indexRegister.html" class="">Create account</a>
-            <a href="indexLogin.html" class="">Login</a>
-          </div>
-        </div>
-
-        <ul>
-          <a href="#" class="">
-            <li><i class="fa-solid fa-house"></i>Home</li>
-          </a>
-          <a href="#" class="">
-            <li><i class="fa-solid fa-microphone"></i>Podcasts</li>
-          </a>
-          <a href="#" class="">
-            <li><i class="fa-solid fa-video"></i>Videos</li>
-          </a>
-          <a href="#" class="">
-            <li><i class="fa-solid fa-tag"></i>Tags</li>
-          </a>
-          <a href="#" class="">
-            <li><i class="fa-solid fa-lightbulb"></i>FAQ</li>
-          </a>
-          <a href="#" class="">
-            <li><i class="fa-solid fa-heart"></i>Advertise on DEV</li>
-          </a>
-          <a href="#" class="">
-            <li><i class="fa-brands fa-dev"></i>About</li>
-          </a>
-          <a href="#" class="">
-            <li><i class="fa-solid fa-address-book"></i>Contact</li>
-          </a>
-          <a href="#" class="">
-            <li><i class="fa-solid fa-book"></i>Guides</li>
-          </a>
-          <a href="#" class="">
-            <li><i class="fa-solid fa-not-equal"></i>Software comparisons</li>
-          </a>
-        </ul>
-        <br />
-        <br />
-        <p>Other</p>
-        <ul>
-          <a href="#" class="">
-            <li><i class="fa-solid fa-thumbs-up"></i>Code of Conduct</li>
-          </a>
-          <a href="#" class="">
-            <li><i class="fa-solid fa-file-shield"></i>Privacy Policy</li>
-          </a>
-          <a href="#" class="">
-            <li><i class="fa-solid fa-eye"></i>Terms of use</li>
-          </a>
-        </ul>
-      </nav>
-
-      <main class="container-main">
-        <!-- PRIMER ARTICULO -->
-        <article class="">
-          <div class="">
-            <img
-              class=""
-              src="images/Daniel Gómez Zayas (2673126).png"
-              alt=""
-            />
-            <p class="">
-              <span class="">Michael Tharrington</span>
-              for
-              <span class="">The DEV Team</span>
-              <br />
-              <small>18 oct</small>
-            </p>
-          </div>
-
-          <div class="">
-            <h2 class="">What was your win this week?</h2>
-            <a class="" href="#">#discuss</a>
-            <a class="" href="#">#weeklyretro</a>
-
-            <div class="">
-              <div class="">
-                <span class="">
-                  <i class="fa-solid fa-heart" style="color: #3d3d3d"></i>
-                  104
-                  <span class="">reactions</span>
-                </span>
-
-                <span class="">
-                  <i class="fa-solid fa-comment" style="color: #3d3d3d"></i>
-                  4
-                  <span class="">comments</span>
-                </span>
-              </div>
-
-              <small>
-                4 min read
-                <i
-                  class="interactive-tag fa-regular fa-bookmark"
-                  style="color: #3d3d3d"
-                ></i>
-              </small>
-            </div>
-          </div>
-        </article>
-      </main>
-
-      <aside class="slidebar">
-        <div class="">
-          <h2>#discuss</h2>
-        </div>
-        <div class="">
-          <p>Cracking the Code: Communicating Tech to Non-Tech</p>
-          <small>1 comment</small>
-        </div>
-        <div class="">
-          <p>What was your win this week?</p>
-          <small>34 comments</small>
-        </div>
-        <div class="">
-          <p>Is Comfort Overrated?</p>
-          <small>12 comments</small>
-        </div>
-        <div class="">
-          <p>
-            JS being weird again: forcibly convert synchronous statement to
-            asynchronous with async function
-          </p>
-          <small>13 comments</small>
-        </div>
-        <div class="">
-          <p>Hacktoberfest 2023: Celebrating the Home Stretch</p>
-          <small><a class="" href="">New</a></small>
-        </div>
-      </aside>
-    </div>
 
     <!-- FONTAWESOME -->
     <script
