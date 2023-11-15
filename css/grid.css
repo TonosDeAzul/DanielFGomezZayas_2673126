@@ -72,6 +72,18 @@
 }
 
 /* 
+  FLEX-DIRECTIONS
+*/
+.fd-column{
+  display: flex;
+  flex-direction: column;
+}
+.fd-row{
+  display: flex;
+  flex-direction: row;
+}
+
+/* 
   CONTAINERS
 */
 .container-fluid{
