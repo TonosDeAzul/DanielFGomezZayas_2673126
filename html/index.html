@@ -7,95 +7,19 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../css/css.css" />
 
+    <!-- GRID CSS -->
+    <link rel="stylesheet" href="../css/grid.css" />
+
     <title>GRID Layout</title>
   </head>
   <body>
-    <header class="header">
-      <div class="header-container">
-        <div class="header-left">
-          <nav class="navbar-mobile">
-            <input type="checkbox" id="nav-mobile" class="check-menu" />
 
-            <label for="nav-mobile">
-              <i class="nav-mobile__icon fa-solid fa-bars"></i>
-            </label>
-
-            <div class="mobile-responsive">
-              <div class="responsive-top ma-10__bottom">
-                <p class="info-title fw-bold">TDA community</p>
-
-                <label for="nav-mobile">
-                  <i class="nav-mobile__icon fa-solid fa-xmark"></i>
-                </label>
-              </div>
-
-              <div class="card pa-15 ma-10__bottom">
-                <h2 class="card-title ma-10__bottom">
-                  DEV Community is a community of 1,175,465 amazing developers
-                </h2>
-                <p class="card-text lh-25 ma-10__bottom">
-                  We're a place where coders share, stay up-to-date and grow
-                  their careers.
-                </p>
-                <div>
-                  <a href="" class="button-2 button-2__mod fw-bold"
-                    >Create account</a
-                  >
-                  <a href="" class="button-2">Login</a>
-                </div>
-              </div>
-
-              <ul>
-                <a href="#" class="card-tag">
-                  <li><i class="fa-solid fa-house"></i>Home</li>
-                </a>
-                <a href="#" class="card-tag">
-                  <li><i class="fa-solid fa-microphone"></i>Podcasts</li>
-                </a>
-                <a href="#" class="card-tag">
-                  <li><i class="fa-solid fa-video"></i>Videos</li>
-                </a>
-                <a href="#" class="card-tag">
-                  <li><i class="fa-solid fa-tag"></i>Tags</li>
-                </a>
-                <a href="#" class="card-tag">
-                  <li><i class="fa-solid fa-lightbulb"></i>FAQ</li>
-                </a>
-                <a href="#" class="card-tag">
-                  <li><i class="fa-solid fa-heart"></i>Advertise on DEV</li>
-                </a>
-                <a href="#" class="card-tag">
-                  <li><i class="fa-brands fa-dev"></i>About</li>
-                </a>
-                <a href="#" class="card-tag">
-                  <li><i class="fa-solid fa-address-book"></i>Contact</li>
-                </a>
-                <a href="#" class="card-tag">
-                  <li><i class="fa-solid fa-book"></i>Guides</li>
-                </a>
-                <a href="#" class="card-tag">
-                  <li>
-                    <i class="fa-solid fa-not-equal"></i>Software comparisons
-                  </li>
-                </a>
-              </ul>
-              <br />
-              <br />
-              <p>Other</p>
-              <ul>
-                <a href="#" class="card-tag">
-                  <li><i class="fa-solid fa-thumbs-up"></i>Code of Conduct</li>
-                </a>
-                <a href="#" class="card-tag">
-                  <li><i class="fa-solid fa-file-shield"></i>Privacy Policy</li>
-                </a>
-                <a href="#" class="card-tag">
-                  <li><i class="fa-solid fa-eye"></i>Terms of use</li>
-                </a>
-              </ul>
-            </div>
-          </nav>
-
+    <!-- HEADER -->
+    <header class="header container-fluid">
+      <!-- HEADER CONTAINER -->
+      <div class="header-container container col-2">
+        <!-- COL-1 -->
+        <div class="ai-center">
           <a href="index.html">
             <img
               class="header-logo"
@@ -103,328 +27,25 @@
               alt="Logo"
             />
           </a>
-          <input
-            id="search"
-            class="header-search"
-            type="search"
-            placeholder="Search..."
-          />
-          <label class="header-search__icon" for="search">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </label>
+          <div class="p-re">
+            <input
+              id="search"
+              class="header-search"
+              type="search"
+              placeholder="Search..."
+            />
+            <label class="header-search__icon" for="search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </label>
+          </div>
         </div>
-
-        <div>
+        <!-- COL-2 -->
+        <div class="jc-end ai-center">
           <a class="button-1" href="login.html">Login</a>
-          <a class="button-1 button-1__mod fw-bold" href="register.html"
-            >Create account</a
-          >
+          <a class="button-1 button-1__mod fw-bold" href="register.html">Create account</a>
         </div>
       </div>
     </header>
-    <div class="container">
-      <nav class="container-navbar">
-        <div class="card pa-15 ma-10__bottom">
-          <h2 class="card-title ma-10__bottom">
-            DEV Community is a community of 1,175,465 amazing developers
-          </h2>
-          <p class="card-text lh-25 ma-10__bottom">
-            We're a place where coders share, stay up-to-date and grow their
-            careers.
-          </p>
-          <div>
-            <a
-              href="register.html"
-              class="button-2 button-2__mod fw-bold"
-              >Create account</a
-            >
-            <a href="login.html" class="button-2">Login</a>
-          </div>
-        </div>
-
-        <ul>
-          <a href="#" class="card-tag">
-            <li><i class="fa-solid fa-house"></i>Home</li>
-          </a>
-          <a href="#" class="card-tag">
-            <li><i class="fa-solid fa-microphone"></i>Podcasts</li>
-          </a>
-          <a href="#" class="card-tag">
-            <li><i class="fa-solid fa-video"></i>Videos</li>
-          </a>
-          <a href="#" class="card-tag">
-            <li><i class="fa-solid fa-tag"></i>Tags</li>
-          </a>
-          <a href="#" class="card-tag">
-            <li><i class="fa-solid fa-lightbulb"></i>FAQ</li>
-          </a>
-          <a href="#" class="card-tag">
-            <li><i class="fa-solid fa-heart"></i>Advertise on DEV</li>
-          </a>
-          <a href="#" class="card-tag">
-            <li><i class="fa-brands fa-dev"></i>About</li>
-          </a>
-          <a href="#" class="card-tag">
-            <li><i class="fa-solid fa-address-book"></i>Contact</li>
-          </a>
-          <a href="#" class="card-tag">
-            <li><i class="fa-solid fa-book"></i>Guides</li>
-          </a>
-          <a href="#" class="card-tag">
-            <li><i class="fa-solid fa-not-equal"></i>Software comparisons</li>
-          </a>
-        </ul>
-        <br />
-        <br />
-        <p>Other</p>
-        <ul>
-          <a href="#" class="card-tag">
-            <li><i class="fa-solid fa-thumbs-up"></i>Code of Conduct</li>
-          </a>
-          <a href="#" class="card-tag">
-            <li><i class="fa-solid fa-file-shield"></i>Privacy Policy</li>
-          </a>
-          <a href="#" class="card-tag">
-            <li><i class="fa-solid fa-eye"></i>Terms of use</li>
-          </a>
-        </ul>
-      </nav>
-
-      <main class="container-main">
-        <!-- PRIMER ARTICULO -->
-        <article class="card">
-          <div class="card-top">
-            <img
-              class="card-image"
-              src="images/Daniel Gómez Zayas (2673126).png"
-              alt=""
-            />
-            <p class="card-text">
-              <span class="fw-bold">Michael Tharrington</span>
-              for
-              <span class="fw-bold">The DEV Team</span>
-              <br />
-              <small>18 oct</small>
-            </p>
-          </div>
-
-          <div class="card-info">
-            <h2 class="info-title">What was your win this week?</h2>
-            <a class="info-tag info-tag__select" href="#">#discuss</a>
-            <a class="info-tag" href="#">#weeklyretro</a>
-
-            <div class="info-interactive">
-              <div class="">
-                <span class="info-tag">
-                  <i class="fa-solid fa-heart" style="color: #3d3d3d"></i>
-                  104
-                  <span class="interactive-tag__show">reactions</span>
-                </span>
-
-                <span class="info-tag">
-                  <i class="fa-solid fa-comment" style="color: #3d3d3d"></i>
-                  4
-                  <span class="interactive-tag__show">comments</span>
-                </span>
-              </div>
-
-              <small>
-                4 min read
-                <i
-                  class="info-tag fa-regular fa-bookmark"
-                  style="color: #3d3d3d"
-                ></i>
-              </small>
-            </div>
-          </div>
-        </article>
-
-        <!-- SEGUNDO ARTICULO -->
-        <article class="card">
-          <div class="card-top">
-            <img
-              class="card-image"
-              src="images/Daniel Gómez Zayas (2673126).png"
-              alt=""
-            />
-            <p class="card-text">
-              <span class="fw-bold">Saurabh Rai</span>
-              for
-              <span class="fw-bold">Swirl</span>
-              <br />
-              <small>27 oct</small>
-            </p>
-          </div>
-
-          <div class="card-info">
-            <h2 class="info-title">
-              [Python 🐍 Mastery] Python's Object-Oriented Programming Overview
-              and Fundamentals ⭐️
-            </h2>
-            <a class="info-tag info-tag__select" href="#">#beginners</a>
-            <a class="info-tag" href="#">#python</a>
-            <a class="info-tag" href="#">#programming</a>
-            <a class="info-tag" href="#">#tutorial</a>
-            <a class="info-tag" href="#">#fundaments</a>
-
-            <div class="info-interactive">
-              <div class="">
-                <span class="info-tag">
-                  <i class="fa-solid fa-heart" style="color: #3d3d3d"></i>
-                  11
-                  <span class="">reactions</span>
-                </span>
-
-                <span class="info-tag">
-                  <i class="fa-solid fa-comment" style="color: #3d3d3d"></i>
-                  5
-                  <span class="">comments</span>
-                </span>
-              </div>
-
-              <small>
-                2 min read
-                <i
-                  class="info-tag fa-regular fa-bookmark"
-                  style="color: #3d3d3d"
-                ></i>
-              </small>
-            </div>
-          </div>
-        </article>
-
-        <!-- TERCER ARTICULO -->
-        <article class="card">
-          <div class="card-top">
-            <img
-              class="card-image"
-              src="images/Daniel Gómez Zayas (2673126).png"
-              alt=""
-            />
-            <p class="card-text">
-              <span class="fw-bold">Erin A Olinick</span>
-              for
-              <span class="fw-bold">The DEV Team</span>
-              <br />
-              <small>23 oct</small>
-            </p>
-          </div>
-
-          <div class="card-info">
-            <h2 class="info-title">
-              Hacktoberfest 2023: Celebrating the Home Stretch
-            </h2>
-            <a class="info-tag info-tag__select" href="#">#discuss</a>
-            <a class="info-tag" href="#">#hacktoberfest23</a>
-
-            <div class="info-interactive">
-              <div class="">
-                <span class="info-tag">
-                  <i class="fa-solid fa-heart" style="color: #3d3d3d"></i>
-                  5
-                  <span class="">reactions</span>
-                </span>
-
-                <span class="info-tag">
-                  <i class="fa-solid fa-comment" style="color: #3d3d3d"></i>
-                  <span class="">Add Comment</span>
-                </span>
-              </div>
-
-              <small>
-                3 min read
-                <i
-                  class="info-tag fa-regular fa-bookmark"
-                  style="color: #3d3d3d"
-                ></i>
-              </small>
-            </div>
-          </div>
-        </article>
-
-        <!-- CUARTO ARTICULO -->
-        <article class="card">
-          <div class="card-top">
-            <img
-              class="card-image"
-              src="images/Daniel Gómez Zayas (2673126).png"
-              alt=""
-            />
-            <p class="card-text">
-              <span class="fw-bold">Dragos Nedelcu</span>
-              <br />
-              <small>17 oct</small>
-            </p>
-          </div>
-
-          <div class="card-info">
-            <h2 class="info-title">
-              How To Find A Developer Job In 2023 (With Little Or No Experience)
-              🔥
-            </h2>
-            <a class="info-tag info-tag__select" href="#">#javascript</a>
-            <a class="info-tag" href="#">#productivity</a>
-            <a class="info-tag" href="#">#career</a>
-            <a class="info-tag" href="#">#job</a>
-
-            <div class="info-interactive">
-              <div class="">
-                <span class="info-tag">
-                  <i class="fa-solid fa-heart" style="color: #3d3d3d"></i>
-                  20
-                  <span class="">reactions</span>
-                </span>
-
-                <span class="info-tag">
-                  <i class="fa-solid fa-comment" style="color: #3d3d3d"></i>
-                  2
-                  <span class="">comments</span>
-                </span>
-              </div>
-
-              <small>
-                19 min read
-                <i
-                  class="info-tag fa-regular fa-bookmark"
-                  style="color: #3d3d3d"
-                ></i>
-              </small>
-            </div>
-          </div>
-        </article>
-      </main>
-
-      <aside class="slidebar">
-        <div class="card">
-          <h2>#discuss</h2>
-        </div>
-        <div class="card">
-          <p>Cracking the Code: Communicating Tech to Non-Tech</p>
-          <small>1 comment</small>
-        </div>
-        <div class="card">
-          <p>What was your win this week?</p>
-          <small>34 comments</small>
-        </div>
-        <div class="card">
-          <p>Is Comfort Overrated?</p>
-          <small>12 comments</small>
-        </div>
-        <div class="card">
-          <p>
-            JS being weird again: forcibly convert synchronous statement to
-            asynchronous with async function
-          </p>
-          <small>13 comments</small>
-        </div>
-        <div class="card">
-          <p>Hacktoberfest 2023: Celebrating the Home Stretch</p>
-          <small
-            ><a class="info__link info__link--select" href="">New</a></small
-          >
-        </div>
-      </aside>
-    </div>
 
     <!-- FONTAWESOME -->
     <script

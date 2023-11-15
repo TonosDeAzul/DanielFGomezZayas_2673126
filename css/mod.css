@@ -1,0 +1,11 @@
+.header-search__icon{
+  top: 5px;
+}
+.header-logo{
+  width: 40px;
+  margin-right: var(--sp-10);
+}
+.button-1__mod{
+  margin-left: var(--sp-5);
+  margin-bottom: 0px;
+}
