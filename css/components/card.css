@@ -32,36 +32,3 @@
   justify-content: space-between;
   margin-top: var(--sp-20);
 }
-.interactive-tag {
-  padding: var(--sp-5) var(--sp-10);
-  color: var(--dark);
-  border-radius: var(--bor);
-}
-.interactive-tag:hover {
-  background-color: rgba(29, 29, 29, 0.1);
-  color: var(--dark);
-}
-.interactive-tag__show {
-  display: none;
-}
-.card-link {
-  display: block;
-  padding: var(--sp-10) 0px;
-  border-radius: var(--bor);
-  text-align: center;
-  color: var(--dark);
-  text-decoration: none;
-  font-size: var(--fs-1);
-}
-.card-link:hover {
-  text-decoration: underline;
-  background-color: rgba(29, 29, 29, 0.1);
-}
-.card-link__mod {
-  border: 1px solid var(--dark);
-  margin-bottom: var(--sp-5);
-}
-.card-link__mod:hover {
-  background-color: var(--dark);
-  color: var(--light);
-}
