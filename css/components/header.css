@@ -46,6 +46,12 @@
   font-size: 24px;
   color: var(--dark);
 }
+.header .button-1 {
+  display: none;
+}
+.header .button-1__mod {
+  display: inline-block;
+}
 
 @media screen and (min-width: 768px) {
   .header-link {
@@ -63,10 +69,10 @@
   .navbar-mobile {
     display: none;
   }
+  .header .button-1 {
+  display: inline-block;
+}
 }
 
 @media screen and (min-width: 1024px) {
-  .header__container .header__button {
-    display: inline-block;
-  }
 }
