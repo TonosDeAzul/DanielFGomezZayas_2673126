@@ -1,0 +1,35 @@
+.card-tag {
+  display: block;
+  font-size: var(--fs-1);
+  color: var(--dark);
+  text-decoration: none;
+  list-style: none;
+  border-radius: var(--bradius);
+  padding: var(--sp-10);
+}
+.card-tag:hover {
+  background-color: var(--dark);
+  color: var(--light);
+  text-decoration: underline;
+}
+.card-tag li i {
+  font-size: var(--sp-15);
+  width: var(--sp-25);
+  padding-right: var(--sp-5);
+}
+.info-tag {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--dark);
+  padding: var(--sp-5);
+  border-radius: var(--bradius);
+  display: inline-block;
+}
+.info-tag:hover {
+  background-color: rgba(29, 29, 29, 0.1);
+  color: var(--dark);
+}
+.info-tag__select {
+  background-color: var(--dark);
+  color: var(--light);
+}
