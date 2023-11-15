@@ -30,3 +30,7 @@ body{
 .section{
   gap: var(--sp-10);
 }
+.aside .card{
+  padding: var(--sp-20);
+}
+
